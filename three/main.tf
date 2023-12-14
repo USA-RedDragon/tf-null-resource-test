@@ -15,5 +15,5 @@ resource "null_resource" "test" {
 
 variable "always_run" {
   type    = number
-  default = 2
+  default = 3
 }
