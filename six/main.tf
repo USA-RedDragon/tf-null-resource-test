@@ -8,7 +8,7 @@ terraform {
 }
 
 resource "null_resource" "test" {
-  count = 100000
+  count = 20000
   triggers = {
     always_run = var.always_run
   }
